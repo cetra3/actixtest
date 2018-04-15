@@ -1,0 +1,18 @@
+[package]
+name = "actixtest"
+version = "0.1.0"
+authors = ["cetra3 <peter@parashift.com.au>"]
+
+[dependencies]
+actix = "*"
+actix-web = { git = "https://github.com/actix/actix-web", rev= "c5b18c6d3073698b3530dcc2ef364a5ad233364a" }
+structopt = "0.1.0"
+structopt-derive = "0.1.0"
+futures = "0.1"
+pretty_env_logger = "*"
+bytes = "0.4.6"
+failure = "0.1.1"
+rand = "0.4"
+log = "0.4.1"
+http = "*"
+
